@@ -1,0 +1,37 @@
+body{
+    background-color: brown;
+}
+#show_sketch{
+    float: right;
+    border-color: rgb(34, 32, 32);
+   margin: 7px;
+}
+h1{
+    background-color: aqua;
+    line-height: 50px;
+    font-family: 'Syne Tactile', cursive;
+}
+#show_sketch:hover{
+    background-color: red;
+}
+p{
+    font-size: 25px;
+}
+
+canvas{
+    border: solid 2px black;
+    margin-top: 80px;
+    animation-name: pencil;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pencil{
+    from{box-shadow: 5px 5px 5px  greenyellow;}
+    to{box-shadow: 10px 10px  5px lightblue;}
+}
+
+.btn-danger:hover{
+background-color: yellowgreen;
+}
+
